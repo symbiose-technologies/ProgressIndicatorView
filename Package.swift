@@ -1,12 +1,12 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.7
 
 import PackageDescription
 
 let package = Package(
     name: "ProgressIndicatorView",
     platforms: [
-        .macOS(.v10_15),
-        .iOS(.v13),
+        .macOS(.v13),
+        .iOS(.v16),
         .watchOS(.v6),
         .tvOS(.v13)
     ],
